@@ -1,0 +1,29 @@
+.background_dealo_world {
+  background-color: #232323;
+  /* height: 400px; */
+}
+
+.dealo_world_wrapper {
+  padding: 44px;
+  width: 80%;
+  margin: auto;
+}
+
+.dealoworld_text {
+  font-size: 33px;
+}
+
+.apply_btn_wrap {
+  margin: 22px 0;
+  width: 150px;
+}
+
+@media (min-width: 768px) {
+  .dealo_world_wrapper {
+    display: flex;
+  }
+
+  .apply_btn_wrap {
+    display: none;
+  }
+}

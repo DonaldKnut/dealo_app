@@ -1,0 +1,39 @@
+.slides_wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  transition: all 0.5s ease;
+}
+
+.btn_wrapper {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.arrow_btn {
+  background-color: #1e621b;
+  cursor: pointer;
+  color: grey;
+  padding: 21px 20px;
+  border-radius: 21px;
+  outline: none;
+  border: none;
+  transition: all 0.4s ease;
+}
+
+.arrow_font {
+  font-size: 17px;
+}
+
+.arrow_btn:hover {
+  background-color: #65bb65;
+  color: white;
+  box-shadow: 2px 2px 3px #217b21;
+}

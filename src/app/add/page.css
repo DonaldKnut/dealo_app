@@ -1,0 +1,136 @@
+.add-container_wrapper {
+  width: 80%;
+  margin: 0 auto 55px auto;
+}
+
+.arrow-left {
+  background: #3e773e;
+  /* padding: 21px 22px; */
+  color: white;
+  width: 88px;
+  padding: 5px;
+  font-size: 29px;
+  border-radius: 28px;
+  margin: 17px 0;
+  transition: all 0.5s ease;
+}
+
+.arrow-left:hover {
+  background-color: #e7e7e7;
+  color: #224522;
+}
+
+.gig-text {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.add-sections {
+  display: block;
+}
+
+.add-input {
+  margin: 8px 0;
+  padding: 12px 8px;
+  border-radius: 10px;
+  background: none;
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+  width: 90%;
+  font-family: inherit;
+}
+
+.special-inputs {
+  padding: 12px 8px;
+  border-radius: 10px;
+  background: none;
+  border: 1px solid #ffffff;
+  color: white;
+  width: 90%;
+  font-family: inherit;
+}
+
+.textarea-style {
+  padding: 12px 8px;
+  border-radius: 10px;
+  background: none;
+  border: 1px solid #ffffff;
+  color: white;
+  width: 90%;
+  font-family: inherit;
+}
+
+.add-btn {
+  margin: 22px 0;
+  width: 90%;
+  padding: 12px 37px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: #40813f;
+  transition: all 0.5s ease-out;
+}
+
+.add-btn:hover {
+  background-color: #ffffff;
+  color: #40813f;
+}
+
+.add-choose_input {
+  margin: 8px 0;
+  border-radius: 5px;
+  background: none;
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+  width: 90%;
+  font-family: inherit;
+  padding: 9px 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-choose_input:hover {
+  background-color: #366535;
+  color: #ffffff;
+}
+
+.upload-image_icon {
+  width: 45px;
+  height: 45px;
+  margin: auto;
+}
+
+.cover-upload {
+  width: 90%;
+  background: #242424;
+  padding: 11px;
+  border-radius: 5px;
+  margin: 16px 0 5px 0;
+  border: 1px dashed #2bc03f;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .add-sections {
+    display: flex;
+    gap: 28px;
+  }
+  /* .special-inputs {
+      width: 70%;
+    } */
+
+  .add-btn {
+    margin: 22px 0;
+    width: 90%;
+  }
+
+  .add-left_section {
+    width: 50%;
+  }
+}

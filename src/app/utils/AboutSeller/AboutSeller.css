@@ -1,0 +1,139 @@
+.seller-about-button {
+  background-color: #3f813f;
+  font-family: inherit;
+  width: 124px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 30px;
+  height: 40px;
+  transition: all 0.5s ease-out;
+}
+
+.user-description-box {
+  margin: 14px 0;
+  border: 1px solid white;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.seller-about-button:hover {
+  background-color: #ffffff;
+  color: #3f813f;
+}
+
+.about_seller_text {
+  margin: 12px 0;
+}
+
+.logo-of-the-user {
+  object-fit: cover;
+  width: 71px;
+  height: 69px;
+  border-radius: 43px;
+}
+
+/* .user-icon img {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+  } */
+
+.country img {
+  height: 16px;
+  width: 24px;
+  border-radius: 3px;
+  margin: 0 4px 0 0;
+}
+
+/* .logo-nigeria {
+    width: 44px;
+  } */
+
+/* .gig-left h4 {
+    text-align: center;
+  } */
+
+.user-profile_image {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 7fr;
+  grid-gap: 16px;
+}
+
+.user-desc_box {
+  border: 1px solid white;
+  padding: 11px;
+  margin: 11px 0;
+  border-radius: 7px;
+}
+
+.user-desc_items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.user-desc_item {
+  display: flex;
+  flex-direction: column;
+}
+
+.desc-title {
+  font-weight: bold;
+}
+
+.user-icon {
+  display: flex;
+  align-items: center;
+}
+
+.clientele-image {
+  height: 58px;
+  width: 60px;
+  border-radius: 33px;
+  margin: 12px 10px 9px;
+}
+
+.star-seller {
+  color: gold;
+}
+
+.helpful {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.first-helpful {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.second-helpful {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (min-width: 551px) {
+  .user-desc_box {
+    width: 77%;
+  }
+}
+
+@media (min-width: 951px) {
+  .user-desc_box {
+    width: 67%;
+  }
+}
+@media (min-width: 768px) {
+  .user-description-box {
+    width: 544px;
+  }
+}

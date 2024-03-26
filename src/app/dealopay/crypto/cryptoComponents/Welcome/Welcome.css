@@ -1,0 +1,113 @@
+.crypto-header_wrapper {
+  width: 80%;
+  margin: 11px auto;
+}
+
+.card {
+  width: 355px;
+  height: 244px;
+  border-radius: 20px;
+}
+
+.crypto-menu-advert-wrapper {
+  display: grid;
+  margin: 18px 0 0 0;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.general-style {
+  text-align: center;
+  padding: 13px 7px;
+}
+
+.crypto_input {
+  width: 93%;
+}
+
+.first-crypto-menu-wrapper {
+  border: 1px solid #40813f;
+  border-top-left-radius: 14px;
+}
+
+.second-crypto-menu-wrapper {
+  border: 1px solid #40813f;
+}
+
+.third-crypto-menu-wrapper {
+  border-top-right-radius: 14px;
+  border: 1px solid #40813f;
+}
+
+.fourth-crypto-menu-wrapper {
+  border-bottom-left-radius: 14px;
+  border: 1px solid #40813f;
+}
+
+.fifth-crypto-menu-wrapper {
+  border-bottom-right-radius: 14px;
+  border: 1px solid #40813f;
+}
+
+.crypto-header-text {
+  font-size: 45px;
+}
+
+.eth-card-image {
+  position: relative;
+  margin: 22px auto;
+}
+
+.eth-icon-image {
+  top: 11px;
+  left: 11px;
+  position: absolute;
+}
+
+.info-circle_icon {
+  position: absolute;
+  top: 18px;
+  right: 13px;
+}
+
+.ethereum-text {
+  position: absolute;
+  top: 170px;
+  left: 16px;
+  margin-bottom: 6px;
+}
+
+.ethereum-text-label {
+  position: absolute;
+  top: 181px;
+  left: 16px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.mother-ethereum-wrapper {
+  display: grid;
+  gap: 21px;
+}
+
+.crypto-input_wrapper {
+  background-color: #222222;
+  padding: 20px 30px;
+  width: 85%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.line-break_underline {
+  height: 1px;
+  background-color: #40813f;
+}
+
+.crypto-section_left-part {
+  padding-right: 25px;
+}
+
+@media (min-width: 868px) {
+  .mother-ethereum-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}

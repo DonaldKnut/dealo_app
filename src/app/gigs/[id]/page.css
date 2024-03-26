@@ -1,0 +1,169 @@
+.user-image {
+  width: 33px;
+  border-radius: 24px;
+  height: 32px;
+}
+
+.gig_text_header {
+  font-size: 31px;
+}
+
+p {
+  margin: 5px 0 11px 0;
+}
+
+.gig-parent {
+  margin: auto;
+  width: 80%;
+  padding: 27px 0;
+}
+
+.username {
+  margin: 0 5px;
+}
+
+.slide-images {
+  margin: 11px 0;
+  width: 336px;
+  height: 233px;
+  /* border-radius: 8px; */
+}
+
+.link_my_link:hover {
+  background-color: #fff;
+  color: #224522;
+}
+
+.slide-label_text {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 11px 0;
+}
+
+.arrow-left {
+  background: #3e773e;
+  /* padding: 21px 22px; */
+  color: white;
+  width: 88px;
+  padding: 5px;
+  font-size: 29px;
+  border-radius: 28px;
+  margin: 17px 0;
+  transition: all 0.5s ease;
+}
+
+.arrow-left:hover {
+  background: #ffffff;
+  color: #3e773e;
+}
+
+.about-icon {
+  font-size: 55px;
+  background-color: #3f813f;
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  padding: 11px;
+  border-radius: 31px;
+}
+
+.decription_container_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.star {
+  color: gold;
+}
+
+.gig_btn {
+  background-color: #3f813f;
+  font-family: inherit;
+  width: 100%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  align-items: center;
+  margin: auto;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 40px;
+  transition: all 0.5s ease-out;
+  margin: 11px auto;
+}
+
+.gig_about_decription_tag {
+  margin-bottom: 20px;
+}
+
+.cash-icon_image {
+  width: 16px;
+}
+
+.gig_btn:hover {
+  background-color: #ffffff;
+  color: #3f813f;
+}
+
+.gig-right {
+  padding: 13px;
+  background: linear-gradient(161deg, #3e773e, #224522);
+  color: #ffffff;
+  border-radius: 5px;
+  position: sticky;
+}
+
+.gig-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+}
+
+.gig-details_item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.perks {
+  font-weight: bold;
+}
+
+.cash-flow {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.stars {
+  display: flex;
+}
+
+/* .gig-item_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  } */
+
+@media (min-width: 660px) {
+  .slide-images {
+    width: 528px;
+    height: 359px;
+  }
+
+  .gig-details-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .first-gig_section-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+}

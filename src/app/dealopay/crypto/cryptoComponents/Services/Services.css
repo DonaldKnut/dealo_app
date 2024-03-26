@@ -1,0 +1,23 @@
+.services {
+  margin-right: 4px;
+}
+
+.services-card_wrapper {
+  display: flex;
+  gap: 12px;
+  background-color: #274827;
+  /* width: 100%; */
+  margin: 16px 0;
+  padding: 13px 21px;
+  border-radius: 15px;
+}
+
+.services-card_wrapper h3 {
+  margin: 0;
+}
+
+@media (min-width: 868px) {
+  .services-card_wrapper {
+    width: 70%;
+  }
+}

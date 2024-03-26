@@ -1,0 +1,169 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+}
+
+.message-link {
+  color: #3eb75c;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin: 5px 5px;
+  transition: all 0.5s ease-in;
+}
+
+.message-link:hover {
+  color: #1a6a2d;
+}
+
+.message-container_wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.message-item {
+  display: flex;
+  gap: 14px;
+  max-width: 600px;
+  font-size: 16px;
+  align-items: baseline;
+}
+
+.message-text {
+  padding: 20px;
+  background-color: #1a6a2d;
+
+  border-radius: 0px 20px 20px 20px;
+}
+
+.message-logo {
+  width: 41px;
+  height: 41px;
+  border-radius: 26px;
+}
+
+.message-item.owner {
+  flex-direction: row-reverse;
+}
+
+.messages {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: scroll;
+}
+
+.owner-text {
+  border-radius: 20px 0 20px 20px;
+  background-color: #717d6f;
+}
+
+.owner {
+  margin: 16px 0;
+}
+
+.write {
+  margin-top: 15px;
+  padding: 11px 0;
+}
+
+.arrow-left {
+  background: #3e773e;
+  /* padding: 21px 22px; */
+  color: white;
+  width: 88px;
+  padding: 5px;
+  font-size: 29px;
+  border-radius: 28px;
+  margin: 17px 0;
+  transition: all 0.5s ease;
+}
+
+.username-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.arrow-left:hover {
+  background-color: #e7e7e7;
+  color: #224522;
+}
+
+/* .message-wrapper {
+    background: url(.././../../assets/images/dealoite\ copy.png) center/cover;
+  } */
+
+.chat-icon_image {
+  width: 351px;
+  height: 269px;
+  position: absolute;
+  top: 237px;
+  z-index: 0;
+  /* left: 101px; */
+}
+
+.textarea {
+  width: 87%;
+  height: 66px;
+  padding: 6px;
+  border-radius: 9px;
+  margin: 4px 0 24px 0;
+  color: #224522;
+}
+
+.write {
+  width: 80%;
+  margin: auto;
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hr {
+  height: 0;
+  border: 0.5px solid #1a6a2d;
+}
+
+.message-btn {
+  margin: auto;
+  padding: 12px 37px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: #40813f;
+  transition: all 0.5s ease-out;
+}
+
+.message-btn:hover {
+  background-color: #ffffff;
+  color: #40813f;
+}
+
+.solo-cart-container {
+  display: grid;
+  grid-gap: 11px;
+  margin: auto;
+  width: 80%;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .chat-icon_image {
+    width: 479px;
+    top: 97px;
+    height: 309px;
+    left: 231px;
+  }
+
+  .message-btn {
+    justify-content: center;
+  }
+}

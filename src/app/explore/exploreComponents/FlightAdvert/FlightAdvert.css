@@ -1,0 +1,21 @@
+.background_flight_advert {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  /* height: 400px; */
+}
+
+.flight_advert_wrapper {
+  padding: 44px;
+  width: 80%;
+  margin: auto;
+}
+
+.dealoworld_text {
+  font-size: 33px;
+}
+
+@media (min-width: 768px) {
+  .flight_advert_wrapper {
+    display: flex;
+  }
+}

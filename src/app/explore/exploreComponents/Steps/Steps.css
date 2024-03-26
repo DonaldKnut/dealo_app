@@ -1,0 +1,48 @@
+.step_boxes {
+  width: 244px;
+  height: 234px;
+  background-color: #cfcfcf;
+  border-radius: 19px;
+  margin: 42px auto;
+  position: relative;
+  overflow: hidden;
+  padding: 22px;
+}
+
+.odd_step_box {
+  background-color: #2d6028;
+  color: white;
+  width: 264px;
+}
+
+.package_text {
+  color: white;
+  z-index: 5px;
+}
+
+.flags_of_nations {
+  position: absolute;
+  top: 57px;
+  left: 63px;
+}
+
+.coins {
+  background-color: green;
+  color: white;
+  padding: 8px;
+  border-radius: 34px;
+}
+
+.fl_nations {
+  position: absolute;
+  top: 6px;
+  left: 63px;
+}
+
+@media (min-width: 768px) {
+  .steps_wrapper_container {
+    display: flex;
+    width: 70%;
+    margin: auto;
+  }
+}

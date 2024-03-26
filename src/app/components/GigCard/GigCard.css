@@ -1,0 +1,106 @@
+.gig-card {
+  width: 293px;
+  overflow: hidden;
+  height: 496px;
+  /* background: linear-gradient(41deg, #215923, #215621); */
+  margin: 11px 0;
+  box-shadow: -1px 2px 6px #265626;
+  transition: all 0.5s ease-in;
+  border-radius: 4px;
+}
+
+.gig-card:hover {
+  background: linear-gradient(141deg, #3f4b3f, #467546);
+  border: 0.13px solid #183519;
+}
+/* .star {
+  font-size: 53px;
+} */
+
+.details {
+  padding: 0 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 11px 0;
+}
+
+.cash-icon {
+  margin: 0 5px 0 0;
+  width: 9px;
+}
+
+.anchor-link {
+  margin: 0;
+}
+
+.user p {
+  text-align: left;
+}
+
+.star {
+  width: 17px;
+}
+
+.picture {
+  width: 17px;
+}
+
+.bg-picture {
+  width: 100%;
+}
+
+.user-picture {
+  margin: 9px 9px 7px 0;
+  width: 37px;
+  height: 36px;
+  border-radius: 22px;
+}
+
+.kisses_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 7px 0;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin: 7px 0;
+}
+
+.kisses {
+  font-size: 27px;
+}
+
+.info {
+  padding: 0 16px;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+}
+
+.item-price h2 {
+  margin: 0;
+}
+
+.user p {
+  text-align: left;
+}
+
+.pricing {
+  text-align: left;
+  margin: 0;
+}
+
+.fa-star {
+  color: gold;
+}
+
+.gig-desc {
+  text-align: left;
+}

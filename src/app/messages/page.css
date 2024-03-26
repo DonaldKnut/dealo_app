@@ -1,0 +1,107 @@
+/* i used MyGig.css styling because its the same */
+
+.my-gig_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+}
+
+.yekpa_image {
+  width: 37px;
+}
+
+.fa-trash {
+  cursor: pointer;
+  color: red;
+}
+
+table {
+  margin: auto;
+  width: 80%;
+}
+
+.table-tr {
+  height: 100px;
+}
+
+td:first-child {
+  font-weight: 500;
+}
+
+td:nth-child(2),
+td:nth-child(3) {
+  color: #d7d7d7;
+}
+
+td {
+  padding-left: 9px;
+}
+
+.td-text {
+  text-align: center;
+  padding-left: 0;
+}
+
+th {
+  text-align: left;
+}
+/* 
+      td:nth-child(even) {
+        background-color: #008000a9;
+      } */
+
+tr.active {
+  background-color: #6a8b6a;
+}
+
+.envelope-icon {
+  background: green;
+  padding: 5px;
+  margin: 0 3px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.message_text {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.arrow-left {
+  background: #3e773e;
+  /* padding: 21px 22px; */
+  color: white;
+  width: 88px;
+  padding: 5px;
+  font-size: 29px;
+  border-radius: 28px;
+  margin: 17px 0;
+  transition: all 0.5s ease;
+}
+
+.arrow-left:hover {
+  background-color: #e7e7e7;
+  color: #224522;
+}
+
+.message-btn {
+  margin: auto 9px;
+  padding: 12px 37px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+  font-size: 11px;
+  font-family: inherit;
+  background-color: #40813f;
+  transition: all 0.5s ease-out;
+}
+
+.message-btn:hover {
+  background-color: white;
+  color: #40813f;
+}

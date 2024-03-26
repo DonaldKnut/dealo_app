@@ -1,0 +1,13 @@
+.testimonial_bio {
+  margin: 22px auto;
+  width: 80%;
+}
+
+.testimnials_section_wrapper {
+  padding: 20px;
+}
+
+.testimonial_image {
+  border-radius: 52%;
+  height: 54px;
+}

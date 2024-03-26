@@ -1,0 +1,33 @@
+.mobile_wrap_advert {
+  background-color: #224b29;
+  color: rgb(255, 255, 255);
+  /* margin: 53px 0; */
+}
+
+.mobile_wrap_wrapper {
+  padding: 44px;
+  width: 80%;
+  margin: auto;
+}
+
+.dealoworld_text {
+  font-size: 33px;
+}
+
+.mobile_inclusion {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+@media (min-width: 768px) {
+  .mobile_wrap_wrapper {
+    display: flex;
+    align-items: center;
+    width: 70%;
+  }
+
+  .mobile_inclusion {
+    flex-direction: row;
+  }
+}

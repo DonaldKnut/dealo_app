@@ -1,0 +1,84 @@
+.video-advert_wrapper {
+  /* height: 754px; */
+  background-color: white;
+  color: black;
+  padding: 28px 10px;
+}
+
+.advert-header-text_ {
+  font-size: bold;
+  text-align: left;
+  /* margin: 0; */
+  font-size: 26px;
+  margin: 8px 0;
+}
+
+.check {
+  width: 19px;
+}
+
+.video-item {
+  margin: 43px auto;
+  width: 54%;
+}
+
+.video {
+  width: 320px;
+  border-radius: 11px;
+}
+
+.video-item_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.video_advert_video {
+  border-radius: 8px;
+}
+
+.video-item_title h4 {
+  margin: 0;
+}
+
+.video-item_title-wrapper p {
+  text-align: center;
+}
+
+@media (min-width: 882px) {
+  .advert-wrapper {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    width: 90%;
+  }
+
+  .video-advert_wrapper {
+    height: 578px;
+  }
+
+  .video-item_title {
+    justify-content: left;
+  }
+
+  .video-item_title-wrapper p {
+    text-align: left;
+  }
+
+  .video {
+    width: 476px;
+  }
+
+  .advert-header-text_ {
+    text-align: left;
+    font-size: bold;
+  }
+}
+
+@media (min-width: 918px) {
+  .video-advert_wrapper {
+    height: 508px;
+  }
+}

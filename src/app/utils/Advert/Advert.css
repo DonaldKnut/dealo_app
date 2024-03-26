@@ -1,0 +1,85 @@
+.advert-parent {
+  height: 649px;
+  background-color: black;
+}
+
+.advert-image {
+  margin: 0 auto 32px;
+  width: 459px;
+}
+
+.bait-text {
+  font-size: 26px;
+}
+
+.bait-desc {
+  width: 71%;
+  margin: auto;
+}
+
+.learn-btn {
+  padding: 12px 37px;
+  margin: 13px auto;
+  border-radius: 29px;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: #40813f;
+  transition: all 0.5s ease-out;
+}
+
+.learn-btn:hover {
+  background-color: white;
+  color: #40813f;
+}
+
+.advert-container {
+  height: 549px;
+  background-color: black;
+  text-align: center;
+}
+
+@media (min-width: 897px) {
+  .advert-image {
+    width: 497px;
+    margin: 0 auto 32px;
+  }
+}
+
+@media (min-width: 908px) {
+  .advert-container {
+    height: 566px;
+  }
+
+  .advert-container {
+    width: 80%;
+    display: flex;
+    height: 462px;
+    justify-content: center;
+    align-items: center;
+    padding: 23px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1153px) {
+  .advert-image {
+    width: 1167px;
+  }
+}
+
+@media (min-width: 919px) {
+  .advert-image {
+    width: 1788px;
+  }
+}
+
+@media (min-width: 957px) {
+  .advert-parent {
+    height: 443px;
+  }
+}

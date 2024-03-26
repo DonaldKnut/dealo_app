@@ -1,0 +1,97 @@
+.menu-wrapper_container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.menu-section-wrapper {
+  height: 678px;
+  background-color: white;
+  padding: 18px;
+  color: black;
+}
+.menu-image {
+  cursor: pointer;
+  margin: auto;
+  width: 69px;
+}
+
+.lifestyle {
+  width: 76px;
+}
+
+.label-n-image {
+  transition: all 0.4s ease-in;
+  border-radius: 6px;
+  margin: auto;
+  text-align: center;
+}
+
+.aviation {
+  width: 79px;
+}
+
+label {
+  display: block;
+}
+
+.paper-logo {
+  width: 69px;
+}
+
+.tech-logo {
+  width: 66px;
+}
+
+.gig-elements {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  grid-gap: 21px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+}
+
+.video-logo {
+  width: 67px;
+  margin: auto;
+}
+
+.data-science {
+  width: 69px;
+}
+
+.link-text {
+  color: black;
+}
+
+.digital-marketing {
+  width: 75px;
+}
+
+.engineering-icon {
+  width: 111px;
+}
+
+.photocopy {
+  width: 90px;
+}
+
+@media (min-width: 768px) {
+  .gig-elements {
+    grid-gap: 21px;
+    margin: auto;
+    /* display: grid;
+      grid-template-columns: 2fr 2fr 2fr; */
+  }
+  .menu-section-wrapper {
+    height: 618px;
+  }
+  .label-n-image:hover {
+    border: 0.5px solid #167411;
+    padding: 8px 8px;
+    background: none;
+    width: 200px;
+    box-shadow: 2px 2px 6px #497047;
+  }
+}

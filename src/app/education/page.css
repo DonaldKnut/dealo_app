@@ -1,0 +1,246 @@
+.mobile_advert-wrap_ {
+  width: 80%;
+  padding: 2px 24px;
+  margin: 29px auto;
+  border-radius: 23px;
+  font-family: "DM Sans";
+}
+
+.label-text_wrapper {
+  background-color: #000;
+  border-radius: 45px;
+}
+
+.label-text_wrapper-left {
+  text-align: center;
+}
+
+.freelance {
+  font-family: "Lobster";
+}
+
+.label-text_wrapper {
+  padding: 44px 38px;
+}
+
+.label_for_courses {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.typing_text {
+  font-family: "Lobster";
+  font-size: 49px;
+}
+
+.courses_link_highlight {
+  background-color: rgb(27, 81, 27);
+  color: white;
+  padding: 12px 22px;
+  margin: 7px -1px;
+  border-radius: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: 180px;
+}
+
+.courses_link_highlight {
+  background-color: rgb(34, 83, 34);
+  color: #fff;
+}
+
+.courses_link_highlight:hover {
+  color: #fff;
+}
+
+.arrow-left {
+  background: #3e773e;
+  /* padding: 21px 22px; */
+  color: white;
+  width: 88px;
+  padding: 5px;
+  font-size: 29px;
+  border-radius: 28px;
+  margin: 17px 0;
+  transition: all 0.5s ease;
+}
+
+.arrow-left:hover {
+  background-color: #e7e7e7;
+  color: #224522;
+}
+
+.label-btn {
+  padding: 12px 37px;
+  margin: 9px 5px;
+  border-radius: 29px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: #40813f;
+  transition: all 0.5s ease-out;
+}
+
+.label-btn:hover {
+  background-color: white;
+  color: #40813f;
+}
+
+.link_my_link:hover {
+  background-color: #fff;
+  color: #224522;
+}
+
+.mobile-h3-text {
+  font-size: 19px;
+  margin: 12px 0;
+}
+
+.mobile-h5-text {
+  font-size: 13px;
+  color: #40813f;
+  margin: 12px 0;
+}
+
+.mobile-img {
+  /* width: 394px; */
+  width: 379px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 50px;
+  padding: 6px;
+  margin: 26px 0;
+  box-shadow: -6px -1px 26px #3e773ea3;
+}
+
+.clientele_image {
+  border-radius: 29px;
+  width: 45px;
+  height: 45px;
+  margin: 12px 0;
+}
+
+.clientele_image2 {
+  border-radius: 29px;
+  width: 45px;
+  height: 45px;
+  margin: 12px 0;
+  left: 26px;
+}
+
+.clientele_image3 {
+  border-radius: 29px;
+  width: 45px;
+  height: 45px;
+  margin: 12px 0;
+  left: 50px;
+}
+
+.label_for_courses {
+  margin: 13px 0;
+}
+
+.courses_link_highlight {
+  color: #e7e7e7;
+  transition: all 0.6s ease-in;
+}
+
+.courses_link_highlight:hover {
+  background-color: #fff;
+  color: #224522;
+  text-decoration: underline;
+}
+
+.encapsulating_wrapper {
+  margin: 39px 0;
+}
+
+.fa-magnifying-glass {
+  margin: 0 5px;
+  color: #3f813f;
+}
+
+input {
+  border: none;
+  background-color: white;
+  outline: none;
+  width: 100%;
+  color: #000;
+}
+
+.search-btn {
+  background-color: #3f813f;
+  font-family: inherit;
+  width: 98px;
+  border: none;
+  padding: 0 6px;
+  outline: none;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  border-radius: 27px;
+  height: 40px;
+  transition: all 0.5s ease-out;
+}
+
+.io-circle {
+  font-size: 20px;
+}
+
+.freelance {
+  font-family: var(--font-Cabin);
+}
+
+.search-btn:hover {
+  background-color: #265326;
+  color: #ffffff;
+}
+
+@media (min-width: 568px) {
+  .mobile-h5-text {
+    color: #40813f;
+  }
+
+  .mobile_advert-wrap {
+    width: 80%;
+  }
+}
+
+@media (min-width: 868px) {
+  .mobile-img {
+    width: 640px;
+  }
+
+  .mobile-h3-text {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1068px) {
+  .label-text_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+    margin: auto;
+  }
+  .label-text_wrapper-section_right {
+    width: 43%;
+  }
+
+  .mobile-img {
+    width: 410px;
+  }
+}

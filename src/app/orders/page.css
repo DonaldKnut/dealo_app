@@ -1,0 +1,59 @@
+/* i used MyGig.css styling because its the same */
+
+.my-gig_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+}
+
+.yekpa_image {
+  width: 37px;
+}
+
+.fa-trash {
+  cursor: pointer;
+  color: red;
+}
+
+table {
+  margin: auto;
+  width: 80%;
+}
+
+tr {
+  height: 50px;
+}
+
+th {
+  text-align: left;
+}
+/* 
+    td:nth-child(even) {
+      background-color: #008000a9;
+    } */
+
+tr:nth-child(even) {
+  background-color: #464e466d;
+}
+
+.envelope-icon {
+  background: green;
+  padding: 5px;
+  margin: 0 3px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.order_text {
+  font-size: 33px;
+  font-weight: 500;
+  /* font-style: italic; */
+}
+
+/* td img {
+      width: 25px;
+      height: 25px;
+      object-fit: cover;
+    } */

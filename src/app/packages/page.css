@@ -1,0 +1,61 @@
+.package_wrapper {
+  /* width: 400px; */
+  background-color: #263527;
+  margin: 22px;
+}
+
+.job_wrapper_wrap {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.job_wrapper_lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0fr;
+  gap: 10px;
+}
+
+.package_mother_container_wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.arrow-left {
+  background: #3e773e;
+  /* padding: 21px 22px; */
+  color: white;
+  width: 88px;
+  padding: 5px;
+  font-size: 29px;
+  border-radius: 28px;
+  margin: 17px 0;
+  transition: all 0.5s ease;
+}
+
+.arrow_left_wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.arrow-left:hover {
+  background-color: #e7e7e7;
+  color: #224522;
+}
+
+.apply_btn_wrap {
+  margin: 22px 0 22px 22px;
+  width: 150px;
+}
+
+@media (min-width: 598px) {
+  .package_mother_container_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1072px) {
+  .package_mother_container_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

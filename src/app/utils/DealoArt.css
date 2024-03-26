@@ -1,0 +1,80 @@
+.dealo-art {
+  height: 680px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.art-img {
+  width: 335px;
+  margin: 43px auto;
+}
+
+.learn-btn_second {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  padding: 12px 37px;
+  border-radius: 29px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: #000000;
+  transition: all 0.5s ease-out;
+  align-items: center;
+  gap: 12px;
+}
+
+.learn-btn_second:hover {
+  background-color: #ffffff;
+  color: #40813f;
+}
+
+.partners-wrapper {
+  text-align: center;
+}
+
+.bait-label_second {
+  width: 80%;
+  margin: 17px auto;
+}
+
+.label-top {
+  font-size: 26px;
+}
+
+.grid-wrapper {
+  display: flex;
+  width: 80%;
+  margin: 0px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 635px) {
+  .art-img {
+    width: 435px;
+  }
+}
+
+@media (min-width: 990px) {
+  .dealo-art {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+  }
+  .art-img {
+    width: 1595px;
+  }
+
+  .label-top {
+    font-size: 36px;
+  }
+
+  .dealo-art {
+    height: 555px;
+  }
+}

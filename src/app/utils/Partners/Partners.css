@@ -1,0 +1,30 @@
+.partners-wrapper {
+  background-color: #000000;
+}
+
+.partner-logo {
+  width: 70px;
+}
+
+.partners {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  align-items: center;
+  padding: 16px 8px;
+  height: 149px;
+  width: 90%;
+  margin: auto;
+}
+
+@media (min-width: 568px) {
+  .partners {
+    grid-template-columns: 2fr 2fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .partners {
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    height: 109px;
+  }
+}

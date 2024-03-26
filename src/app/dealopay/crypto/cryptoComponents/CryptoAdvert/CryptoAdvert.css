@@ -1,0 +1,99 @@
+.mobile_advert-crypto-wrap {
+  width: 100%;
+  /* background-color: #40813f; */
+  margin: 29px auto;
+  border-radius: 23px;
+}
+
+.label-text_wrapper-left {
+  text-align: center;
+}
+
+.label-text_wrapper {
+  padding: 44px 38px;
+}
+
+.label-btn {
+  padding: 12px 37px;
+  margin: 9px 5px;
+  border-radius: 29px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: #40813f;
+  transition: all 0.5s ease-out;
+}
+
+.label-btn:hover {
+  background-color: white;
+  color: #40813f;
+}
+
+.crypto-mobile-h3-text {
+  font-size: 19px;
+  text-align: center;
+}
+
+.mobile-h5-text_crypto {
+  background-color: #40813f;
+  padding: 12px 9px;
+  text-align: center;
+  border-radius: 29px;
+  font-size: 19px;
+  color: #ffffff;
+  margin: 12px 0;
+}
+
+.crypto-mobile_img {
+  width: 212px;
+}
+
+.crypto-label-text_wrapper-text {
+  text-align: center;
+}
+
+@media (min-width: 568px) {
+  .mobile-h5-text {
+    font-size: 18px;
+    color: #40813f;
+  }
+}
+
+@media (min-width: 868px) {
+  .crypto-mobile_img {
+    width: 240px;
+  }
+
+  .mobile-h3-text {
+    font-size: 34px;
+  }
+
+  .crypto-label-text_wrapper-text {
+    text-align: left;
+  }
+  /* 
+  .mobile-h5-text_crypto {
+    text-align: left;
+  } */
+  .crypto-mobile-h3-text {
+    text-align: left;
+  }
+}
+@media (min-width: 868px) {
+  .label-text_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    width: 80%;
+    margin: auto;
+  }
+  .label-text_wrapper-section_right {
+    width: 43%;
+  }
+
+  .crypto-mobile_img {
+    width: 410px;
+  }
+}

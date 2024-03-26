@@ -1,0 +1,61 @@
+.hero-text {
+  font-size: 123px;
+}
+
+.hero-wrapper {
+  padding: 0 0 0 62px;
+}
+
+.japa_subtitle {
+  width: 83%;
+}
+
+.hero_feature {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  margin: 10px 0;
+}
+
+section {
+  /* background-image: url("/Blue-ocean-blog-scaled.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-position: no-repeat; */
+  height: 80vh;
+  width: 100%;
+  /* background-color: rgb(255, 255, 255); */
+  height: 50vh;
+  position: relative;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  object-fit: cover;
+  height: 165vh;
+}
+
+video::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.689);
+  z-index: -1;
+}
+
+.later-text {
+  font-size: 58px;
+  font-family: "Preahvihear", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .japa_subtitle {
+    width: 43%;
+  }
+}

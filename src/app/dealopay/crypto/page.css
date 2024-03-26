@@ -1,0 +1,27 @@
+.arrow-left {
+  background: #3e773e;
+  /* padding: 21px 22px; */
+  color: white;
+  width: 88px;
+  padding: 5px;
+  font-size: 29px;
+  border-radius: 28px;
+  margin: 17px 0;
+  transition: all 0.5s ease;
+}
+
+.arrow-left:hover {
+  background-color: #e7e7e7;
+  color: #224522;
+}
+
+.crypto-header_wrapper_ {
+  padding: 0 12px;
+}
+
+@media (min-width: 723px) {
+  .crypto-header_wrapper_ {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

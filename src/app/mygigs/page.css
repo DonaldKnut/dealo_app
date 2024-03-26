@@ -1,0 +1,64 @@
+.my-gig_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+}
+
+.yekpa_image {
+  width: 37px;
+}
+
+.fa-trash {
+  cursor: pointer;
+  color: red;
+}
+table {
+  margin: auto;
+  width: 80%;
+}
+
+tr {
+  height: 50px;
+}
+
+th {
+  text-align: left;
+}
+
+.gigs_text {
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.arrow-left {
+  background: #3e773e;
+  /* padding: 21px 22px; */
+  color: white;
+  width: 88px;
+  padding: 5px;
+  font-size: 29px;
+  border-radius: 28px;
+  margin: 17px 0;
+  transition: all 0.5s ease;
+}
+
+.arrow-left:hover {
+  background-color: #e7e7e7;
+  color: #224522;
+}
+/* 
+  td:nth-child(even) {
+    background-color: #008000a9;
+  } */
+
+tr:nth-child(even) {
+  background-color: #464e466d;
+}
+
+/* td img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+  } */

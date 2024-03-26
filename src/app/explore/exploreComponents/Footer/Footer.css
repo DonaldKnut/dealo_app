@@ -1,0 +1,62 @@
+.footer_to_japa_section {
+  padding: 48px 38px;
+  /* background-color: #063e1e; */
+  background-color: #202020;
+  color: #ffffff;
+  margin: auto;
+  width: 90%;
+  border-radius: 33px;
+}
+
+.footer_mail {
+  border-radius: 33px;
+  background-color: #336c1e;
+  padding: 19px;
+}
+
+.privacy_tag:hover {
+  color: #41cd66;
+}
+
+.input_box {
+  display: flex;
+  align-items: center;
+  margin: 29px 0;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer_socials {
+  margin: 11px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_social_icons {
+  display: flex;
+  gap: 14px;
+}
+
+.footer_logo {
+  margin: 22px 0 0 0;
+}
+
+.social_font {
+  transition: all 0.5s ease-in;
+}
+
+.social_font:hover {
+  color: #5da16e;
+}
+
+@media (min-width: 700px) {
+  .input_box {
+    flex-direction: row;
+  }
+  .first_section {
+    display: flex;
+    align-items: flex-end;
+    gap: 28px;
+  }
+}
